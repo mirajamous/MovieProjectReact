@@ -1,0 +1,43 @@
+.searchbody{
+background-color: black;
+display:flex;
+background: url(../../../../public/image/frozen.jpg) no-repeat ;
+background-size: 100% 100%;
+height: 77vh;
+margin-bottom: 30px;
+/* min-height: 500px; */
+color: #fff;
+display: flex;
+
+
+}
+.layOut{
+
+    background: rgba(0,0, 0, 0.8);
+    width: 100%;
+    height: 100%;
+}
+.content{
+    padding-top: 260px;
+    /* padding-left: 100px; */
+    text-align: center;
+    align-items: center;
+    display:list-item;
+    
+}
+.content h1{
+    font-size: 60px;
+}
+.myBtn{
+    background-color:#3AAFA9 ;
+    border-color: #3AAFA9;
+}
+.myBtn:hover{
+    background-color: Transparent ;
+    border-color: #3AAFA9;
+}
+.myinput {
+    width: 50%;
+    align-items: center;
+    text-align: center;
+}

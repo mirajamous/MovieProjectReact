@@ -1,0 +1,16 @@
+.MyHome{
+    /* background-color: #eee;
+    background-image:url(../../../../public/image/imageBackground.jpeg) ;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 90vh; */
+    background-color: black;
+
+}
+.container{
+    margin: auto;
+    width: 80%;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}

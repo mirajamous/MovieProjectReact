@@ -1,0 +1,129 @@
+@import url('https://fonts.googleapis.com/css2?family=Corinthia:wght@700&family=Dancing+Script:wght@700&family=Merriweather:ital@1&family=Playfair+Display:ital,wght@0,400;1,600&family=Poppins:wght@200;400;500;600;700&family=Ubuntu:wght@400;500;700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+.bigLogin{
+display: flex;
+justify-content: center;
+align-items: center;
+min-height: 100vh;
+background: #23242a;
+
+}
+.FormBox{
+    position: relative;
+    width: 380px;
+    height: 420px;
+    background-color: #1c1c1c;
+    border-radius: 8px;
+    overflow: hidden;
+}
+.FormBox::before{
+    content:'';
+    position: absolute;
+    top: -50%;
+    left: -50%;
+    width: 380px;
+    height: 420px;
+    background: linear-gradient(0deg,transparent,#3AAFA9);
+    transform-origin: bottom right;
+    animation: animate 6s linear infinite;
+
+}
+
+.FormBox::after{
+    content:'';
+    position: absolute;
+    top: -50%;
+    left: -50%;
+    width: 380px;
+    height: 420px;
+    background: linear-gradient(0deg,transparent,#3AAFA9);
+    transform-origin: bottom right;
+    animation: animate 6s linear infinite;
+    animation-delay: -3s;
+
+}
+
+.form{
+    position: absolute;
+    inset: 2px;
+    background: #28292d;
+    z-index:10;
+    border-radius: 8px;
+    padding: 50px 40px;
+    display: flex;
+    flex-direction: column;
+}
+.form h2{
+    color: #3AAFA9;
+    font-weight: 500;
+    text-align: center;
+    letter-spacing: 0.1em;
+}
+.Box-input-form{
+    position: relative;
+    width: 300px;
+    margin-top: 35px;
+}
+/* .Box-input-form span{
+ position: absolute; 
+ left: 0;
+ padding: 20px 10px 10px;
+ font-size: 1em;
+ color: #8f8f8f;  
+ pointer-events: none;
+ letter-spacing: 0.0em;
+ transition: 0.5s;
+
+} */
+/* .Box-input-form input{
+    border: none;
+    outline: none;
+    color: #23242a;
+    font-size: 1em;
+    position: relative;
+    width: 100%;
+    padding: 20px 10px 10px;
+    background: transparent;
+    letter-spacing: 0.05em;
+
+} */
+.Box-input-form input{
+    
+    background: transparent;
+    border-bottom-color: #3AAFA9;
+    width: 100%;
+    color: #3AAFA9;
+    margin-top: 10px;
+
+}
+.btn-submit{
+
+border: none;
+/* outline: none; */
+background: #3AAFA9;
+padding: 11px 25px;
+width: 50%;
+margin-top: 30px;
+font-weight: 600px;
+border-radius: 4px;
+}
+.btn-submit :active{
+    opacity: 0.8;
+}
+label{
+    color: #3AAFA9;
+}
+
+@keyframes animate {
+    0%{
+        transform: rotate(0deg);
+    }
+    100%{
+        transform: rotate(360deg);
+    }
+}

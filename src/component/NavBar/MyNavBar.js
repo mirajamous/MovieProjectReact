@@ -1,10 +1,11 @@
-import { Button, Container, Form, Nav, Navbar, NavDropdown } from 'react-bootstrap';
+import {  Container, Nav, Navbar, NavDropdown } from 'react-bootstrap';
 import { BrowserRouter, Routes, Route, Link } from "react-router-dom";
 import React, { useEffect, useState } from 'react';
 import Home from './Pages/Home';
 import About from './Pages/About';
-import Login from './Pages/Login';
+import Login from './Pages/Contact';
 import "./nav.css"
+import Card from './Pages/Card';
 function MyNavBar() {
    
     return (
@@ -21,9 +22,9 @@ function MyNavBar() {
                                 style={{ maxHeight: '100px'  }}
                                 navbarScroll
                             >
-                                <Nav.Link as={Link} to={"/"}>Home</Nav.Link>
-                                <Nav.Link as={Link} to={"/About"}>About</Nav.Link>
-                                <Nav.Link as={Link} to={"/Login"}>Login</Nav.Link>
+                                <Nav.Link as={Link} to={"/"} className="myNavbaritem">Home</Nav.Link>
+                                <Nav.Link as={Link} to={"/About"} className="myNavbaritem">About</Nav.Link>
+                                <Nav.Link as={Link} to={"/Contact"} className="myNavbaritem">Contact</Nav.Link>
                             </Nav>
                             {/* <Form className="d-flex">
                                 <Form.Control
@@ -42,12 +43,14 @@ function MyNavBar() {
                 <Routes>
                     <Route path="/" element={<Home />} />
                     <Route path="/About" element={<About />} />
-                    <Route path="/Login" element={<Login />} />
+                    <Route path="/Contact" element={<Login />} />
 
                 </Routes>
-            </div>
+            </div> 
+            
         </BrowserRouter>
     )
+   
 
 }
 export default MyNavBar;

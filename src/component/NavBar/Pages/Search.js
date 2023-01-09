@@ -3,43 +3,43 @@ import Form from 'react-bootstrap/Form';
 import InputGroup from 'react-bootstrap/InputGroup';
 import React, { useState } from "react";
 import "./Search.css"
-function Search() {
-    const [search,setSearch]=useState();
-
-
-
+import Card from './Card';
+function Search({search,setSearch}) {
+    // const [search,setSearch]=useState();
+    // const handleKeyPress = (event) => {
+    //     if(event.key === 'Enter'){
+    //       console.log(search +" from Enter");
+    //       setSearch("");     
+    //     }
+    //   }
     const formsubmit=()=>{
-        
+        console.log(search+" from button");
+        setSearch("");
     }
-
-
     return (
         <div className="searchbody">
             <div className="layOut">
                 <div className="content" >
-                    <h1> Welcome to <br />our website </h1>
-                    {/* <p>For movie <span>Lovers</span></p> */}
+                    <h1> Welcome to <br /> OurMovie</h1>
                     <p>Simple and quick description of movies by searching for the name of the movie</p>
                    
                    <InputGroup className="myinput mx-auto">
                         <Form.Control
                             placeholder="Search About film name ..."
                             value={search}
+                            // onKeyPress={handleKeyPress}
                             onChange={(e)=>{
                                 setSearch(e.target.value);
-                            }}
-                            
-                            // aria-label=""
-                            // aria-describedby="basic-addon2"
+                            }} 
                         />
                         <Button className='myBtn' id="button-addon2" type="submit" onClick={formsubmit}>
-                            Search
+                            Reset
                         </Button>
                     </InputGroup>
                 </div>
-                
+                {/* <Card pro={search} /> */}
             </div>
-
+           
         </div>
 
     )

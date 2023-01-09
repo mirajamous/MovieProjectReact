@@ -15,8 +15,8 @@ background: #23242a;
 }
 .FormBox{
     position: relative;
-    width: 380px;
-    height: 420px;
+    width: 580px; /* 380*/
+    height: 520px;/*420*/
     background-color: #1c1c1c;
     border-radius: 8px;
     overflow: hidden;
@@ -26,8 +26,8 @@ background: #23242a;
     position: absolute;
     top: -50%;
     left: -50%;
-    width: 380px;
-    height: 420px;
+    width: 580px;/*380*/
+    height: 520px;/*420*/
     background: linear-gradient(0deg,transparent,#3AAFA9);
     transform-origin: bottom right;
     animation: animate 6s linear infinite;
@@ -39,8 +39,8 @@ background: #23242a;
     position: absolute;
     top: -50%;
     left: -50%;
-    width: 380px;
-    height: 420px;
+    width: 580px;/*380*/
+    height: 520px;/*420*/
     background: linear-gradient(0deg,transparent,#3AAFA9);
     transform-origin: bottom right;
     animation: animate 6s linear infinite;
@@ -54,7 +54,7 @@ background: #23242a;
     background: #28292d;
     z-index:10;
     border-radius: 8px;
-    padding: 50px 40px;
+    padding: 20px 40px;
     display: flex;
     flex-direction: column;
 }
@@ -67,39 +67,31 @@ background: #23242a;
 .Box-input-form{
     position: relative;
     width: 300px;
-    margin-top: 35px;
+    margin-top: 25px;
 }
-/* .Box-input-form span{
- position: absolute; 
- left: 0;
- padding: 20px 10px 10px;
- font-size: 1em;
- color: #8f8f8f;  
- pointer-events: none;
- letter-spacing: 0.0em;
- transition: 0.5s;
 
-} */
-/* .Box-input-form input{
-    border: none;
-    outline: none;
-    color: #23242a;
-    font-size: 1em;
-    position: relative;
-    width: 100%;
-    padding: 20px 10px 10px;
-    background: transparent;
-    letter-spacing: 0.05em;
-
-} */
 .Box-input-form input{
     
     background: transparent;
-    border-bottom-color: #3AAFA9;
+    border-color: #3AAFA9;
+    width: 100%;
+    color: #3AAFA9;
+    margin-top: 5px;
+
+}
+.Box-input-form textarea{
+    
+    background: transparent;
+    border-color: #3AAFA9;
     width: 100%;
     color: #3AAFA9;
     margin-top: 10px;
+    resize: none;
+    
 
+}
+.Box-input-form textarea:active{
+    border-color: #3AAFA9;
 }
 .btn-submit{
 
@@ -107,16 +99,44 @@ border: none;
 /* outline: none; */
 background: #3AAFA9;
 padding: 11px 25px;
-width: 50%;
-margin-top: 30px;
+width: 30%;
+margin-top: 10px;
 font-weight: 600px;
 border-radius: 4px;
+color: white;
 }
+.btn-submit:hover{
+    background: none;
+    border-style: groove;
+    color: #3AAFA9;
+    border-color: #3AAFA9;
+}
+
 .btn-submit :active{
     opacity: 0.8;
 }
+
 label{
     color: #3AAFA9;
+}
+
+
+.my-alert{
+    width:300px;
+    text-align: center;
+    align-items: center;
+    position:absolute;
+    margin-left: 1200px;
+    margin-right: 0;
+  
+    
+}
+.bigAlert{
+    text-align: center;
+    align-items: center;
+    /* display:inline-block; */
+    display:contents;
+    
 }
 
 @keyframes animate {

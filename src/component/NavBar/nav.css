@@ -1,3 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;1,400;1,800&display=swap');
+
 .bigNav{
     /*  */
     background-color:#3AAFA9;
@@ -12,6 +15,8 @@
 } */
 .logo{
     color: white;
+    font-family: 'Pacifico', cursive;
+    font-size: 30px;
 }
 .logo:hover{
     color: white;
@@ -19,3 +24,21 @@
 /* .Nav{
     color: aliceblue;
 } */
+
+.myNavbaritem{
+    color: white;
+    font-size: 20px;
+    margin-left: 10px;
+    font-family: 'Playfair Display', serif;
+    
+}
+
+.myNavbaritem:hover{
+   background-color: #23242a;
+   color: #3AAFA9;
+    
+}
+.myNavbaritem:active{
+   color: white;
+     
+ }

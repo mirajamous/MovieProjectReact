@@ -1,4 +1,7 @@
 
+body{
+    background-color: black;
+}
 .MyHome {
     /* background-color: #eee;
     background-image:url(../../../../public/image/imageBackground.jpeg) ;

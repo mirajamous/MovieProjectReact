@@ -24,11 +24,11 @@ The third page is intended for the user to communicate with the site owners via 
 
 ![image](https://user-images.githubusercontent.com/64428440/213764038-b9463e79-1acd-4424-9860-c5f036c7c52b.png)
 
-The user can search for the movie by searching for it to facilitate his access to the desired movie.
+Thanks to the search bar, the user can easily get any movie he desires.
 
 ![image](https://user-images.githubusercontent.com/64428440/213764091-4b9d3676-9b07-49d0-a93d-178494c8ffac.png)
 
-The site supports different sizes of screens on mobile phones, tablets, etc.
+The site supports screens of different sizes. For instance, mobile phones, tablets, etc.
 
 ![image](https://user-images.githubusercontent.com/64428440/213764140-fe54044d-5e4a-42c8-9ef3-0d791ef0d8bc.png)
 

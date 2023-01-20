@@ -10,7 +10,7 @@ When you hover over the card, the description of each movie appears.
 
 ![image](https://user-images.githubusercontent.com/64428440/213763847-680d27b7-2071-4723-ac8f-15b668276c94.png)
 
-On the second page, the common questions that are asked to the site are presented to facilitate the user to obtain answers to these questions.
+On the second page, the frequently asked questions that are asked on the site are presented to make it easier for the user to get answers to them.
 
 ![image](https://user-images.githubusercontent.com/64428440/213763890-0b73eebc-c5b7-46da-b707-3c8b7fd3edf2.png)
 

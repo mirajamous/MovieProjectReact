@@ -16,7 +16,7 @@ On the second page, the frequently asked questions that are asked on the site ar
 
 ![image](https://user-images.githubusercontent.com/64428440/213763918-7ef5f65a-727c-4e0d-b2aa-1f40f4dd2341.png)
 
-On the third page, there is a place to communicate with the owners of the site, where the user can send his inquiries and messages to the e-mail of the owner of the site.
+The third page is intended for the user to communicate with the site owners via e-mail if he has any questions or inquiries, etc...
 
 ![image](https://user-images.githubusercontent.com/64428440/213763949-cb6fb043-91ad-4241-bd0a-51639e6a2422.png)
 

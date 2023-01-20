@@ -1,6 +1,6 @@
 # Movie website project
 
-On the home page, movies are displayed, and each movie has a rating to the right of the card.
+On the home page, movies are displayed, and each movie has a rating in the lower right corner of the card.
 
 ![image](https://user-images.githubusercontent.com/64428440/213763636-887592ef-3f19-4612-8a96-2ff69413a25d.png)
 

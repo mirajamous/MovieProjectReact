@@ -1,12 +1,22 @@
+# Movie website project
+
+On the home page, movies are displayed, and each movie has a rating to the right of the card.
+
 ![image](https://user-images.githubusercontent.com/64428440/213763636-887592ef-3f19-4612-8a96-2ff69413a25d.png)
 
 ![image](https://user-images.githubusercontent.com/64428440/213763817-731e85de-effd-4932-ae30-d3fab63e8287.png)
 
+When you hover over the card, the description of each movie appears.
+
 ![image](https://user-images.githubusercontent.com/64428440/213763847-680d27b7-2071-4723-ac8f-15b668276c94.png)
+
+On the second page, the common questions that are asked to the site are presented to facilitate the user to obtain answers to these questions.
 
 ![image](https://user-images.githubusercontent.com/64428440/213763890-0b73eebc-c5b7-46da-b707-3c8b7fd3edf2.png)
 
 ![image](https://user-images.githubusercontent.com/64428440/213763918-7ef5f65a-727c-4e0d-b2aa-1f40f4dd2341.png)
+
+On the third page, there is a place to communicate with the owners of the site, where the user can send his inquiries and messages to the e-mail of the owner of the site.
 
 ![image](https://user-images.githubusercontent.com/64428440/213763949-cb6fb043-91ad-4241-bd0a-51639e6a2422.png)
 
@@ -14,7 +24,11 @@
 
 ![image](https://user-images.githubusercontent.com/64428440/213764038-b9463e79-1acd-4424-9860-c5f036c7c52b.png)
 
+The user can search for the movie by searching for it to facilitate his access to the desired movie.
+
 ![image](https://user-images.githubusercontent.com/64428440/213764091-4b9d3676-9b07-49d0-a93d-178494c8ffac.png)
+
+The site supports different sizes of screens on mobile phones, tablets, etc.
 
 ![image](https://user-images.githubusercontent.com/64428440/213764140-fe54044d-5e4a-42c8-9ef3-0d791ef0d8bc.png)
 

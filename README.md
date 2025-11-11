@@ -13,6 +13,15 @@ Users can **search for movies** and view a short description of each result.
 ##  Tech Stack
 - React (Functional Components, Hooks)
 - Fetch API
+
+---
+##  How to Run Locally
+```bash
+git clone https://github.com/mirajamous/MovieProjectReact.git
+cd MovieProjectReact
+npm install
+npm start
+```
 ---
 ## Preview
 On the home page, movies are displayed, and each movie has a rating in the lower right corner of the card.
@@ -57,10 +66,4 @@ The site supports screens of different sizes. For instance, mobile phones, table
 
 ![image](https://user-images.githubusercontent.com/64428440/213764401-ed10ea17-4614-4984-9321-83ef09b66dad.png)
 
----
-##  How to Run Locally
-```bash
-git clone https://github.com/mirajamous/MovieProjectReact.git
-cd MovieProjectReact
-npm install
-npm start
+

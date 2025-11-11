@@ -5,7 +5,7 @@ Users can **search for movies** and view a short description of each result.
 ---
 ##  Features
 - Built entirely with **React**
-- Fetches real-time movie data using an external APIز
+- Fetches real-time movie data using an external API.
 - **Search functionality** to find movies by title
 - Displays **movie details** including title, poster,rate and description
 - Responsive and clean design

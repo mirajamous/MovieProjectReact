@@ -1,5 +1,20 @@
-# Movie website project
+#  MovieProjectReact
 
+A simple and responsive **React** web app that fetches movie data from an external API.  
+Users can **search for movies** and view a short description of each result.
+---
+##  Features
+- Built entirely with **React**
+- Fetches real-time movie data using an external APIز
+- **Search functionality** to find movies by title
+- Displays **movie details** including title, poster,rate and description
+- Responsive and clean design
+---
+##  Tech Stack
+- React (Functional Components, Hooks)
+- Fetch API
+---
+## Preview
 On the home page, movies are displayed, and each movie has a rating in the lower right corner of the card.
 
 ![image](https://user-images.githubusercontent.com/64428440/213763636-887592ef-3f19-4612-8a96-2ff69413a25d.png)
@@ -41,3 +56,11 @@ The site supports screens of different sizes. For instance, mobile phones, table
 ![image](https://user-images.githubusercontent.com/64428440/213764363-614f97a3-ba08-4590-a9b5-8c24c7806c95.png)
 
 ![image](https://user-images.githubusercontent.com/64428440/213764401-ed10ea17-4614-4984-9321-83ef09b66dad.png)
+
+---
+##  How to Run Locally
+```bash
+git clone https://github.com/mirajamous/MovieProjectReact.git
+cd MovieProjectReact
+npm install
+npm start
